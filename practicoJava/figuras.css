@@ -30,6 +30,10 @@ header h1 {
 }
 
 main {
+    display: flex;
+}
+
+.columnas-divid {
     display: grid;
     align-items: center;
     justify-content: center;
@@ -40,21 +44,73 @@ main {
 
 .container_figure {
     position: absolute;
+    margin-top: 30px;
+    background: grey;
+    border-radius: 8px;
+    display: grid;
+    width: 360px;
+    height: auto;
 }
 
-.cuadrado {
+.resultado {
+    display: flex;
+}
+
+
+.bloque {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.bloque div {
+    margin-top: 5px;
+}
+
+.calculo .cuadrado {
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
 }
 
-.triangulo {
+.calculo .triangulo {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -40%);
 }
 
-.circulo {
+.calculo .circulo {
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+h2 {
+    text-align: center;
+    color: yellow;
+}
+
+.dibujando .cuadrado {
+    height: 160px;
+    width: 360px;
+    background: rebeccapurple;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.dibujando .triangulo {
+    height: 160px;
+    width: 360px;
+    background: rebeccapurple;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.dibujando .circulo {
+    height: 160px;
+    width: 360px;
+    background: rebeccapurple;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -80%);

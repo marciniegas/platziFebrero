@@ -18,59 +18,98 @@
     </header>
 
     <main>
-        <section class="container_figure cuadrado">
-            <h2>Calcula el área de un cuadrado</h2>
-            <form action="">
-                <label for="InputCuadrado">
-                    Escribe cuánto mide cada lado de un cuadrado:
-                </label>
-                <input id="InputCuadrado" type="number">
+        <section class="columnas-divid calculo">
+            <section class="container_figure cuadrado">
+                
+                <form class="bloque" action="">
+                        <div>
+                            <h2>Calcula el Área de un cuadrado</h2>
+                        </div>
 
-                <button type="button" onclick="calcularPerimetroCuadrado()">
-                    Calcular el perímetro
-                </button>
+                        <div>
+                        <label for="InputCuadrado">
+                            Escribe cuánto mide cada lado de un cuadrado:
+                        </label>
+                        </div>
+                        <div>
+                        <input id="InputCuadrado" type="number">
+                        </div>
 
-                <button type="button" onclick="calcularAreaCuadrado()">
-                    Calcula el área
-                </button>
-            </form>
+                        <div>
+                        <button type="button" onclick="calcularPerimetroCuadrado()">
+                            Perímetro
+                        </button>
+
+                        <button type="button" onclick="calcularAreaCuadrado()">
+                            Área
+                        </button>
+                        </div>
+                </form>
+            </section>
+
+            <section class="container_figure triangulo">
+                
+                <form class="bloque" action="">
+                        <div>
+                            <h2>Calcula el Área de un cuadrado</h2>
+                        </div>
+
+                        <div>
+                        <label for="InputCuadrado">
+                            Escribe cuánto mide cada lado de un cuadrado:
+                        </label>
+                        </div>
+                        <div>
+                        <input id="InputCuadrado" type="number">
+                        </div>
+
+                        <div>
+                        <button type="button" onclick="calcularPerimetroCuadrado()">
+                            Perímetro
+                        </button>
+
+                        <button type="button" onclick="calcularAreaCuadrado()">
+                            Área
+                        </button>
+                        </div>
+                </form>
+            </section>
+
+            <section class="container_figure circulo">
+                
+                <form class="bloque" action="">
+                        <div>
+                            <h2>Calcula el Área de un cuadrado</h2>
+                        </div>
+
+                        <div>
+                        <label for="InputCuadrado">
+                            Escribe cuánto mide cada lado de un cuadrado:
+                        </label>
+                        </div>
+                        <div>
+                        <input id="InputCuadrado" type="number">
+                        </div>
+
+                        <div>
+                        <button type="button" onclick="calcularPerimetroCuadrado()">
+                            Perímetro
+                        </button>
+
+                        <button type="button" onclick="calcularAreaCuadrado()">
+                            Área
+                        </button>
+                        </div>
+                </form>
+            </section>
+    </section>
+    <section class="columnas-divid dibujando">
+        <section class="figuras-geometricas">
+            <div class="container_figure cuadrado"></div>
+            <div class="container_figure triangulo"></div>
+            <div class="container_figure circulo"></div>
         </section>
-
-        <section class="container_figure triangulo">
-            <h2>Calcula el área de un cuadrado</h2>
-            <form action="">
-                <label for="InputCuadrado">
-                    Escribe cuánto mide cada lado de un cuadrado:
-                </label>
-                <input id="InputCuadrado" type="number">
-
-                <button type="button" onclick="calcularPerimetroCuadrado()">
-                    Calcular el perímetro
-                </button>
-
-                <button type="button" onclick="calcularAreaCuadrado()">
-                    Calcula el área
-                </button>
-            </form>
-        </section>
-
-        <section class="container_figure circulo">
-            <h2>Calcula el área de un cuadrado</h2>
-            <form action="">
-                <label for="InputCuadrado">
-                    Escribe cuánto mide cada lado de un cuadrado:
-                </label>
-                <input id="InputCuadrado" type="number">
-
-                <button type="button" onclick="calcularPerimetroCuadrado()">
-                    Calcular el perímetro
-                </button>
-
-                <button type="button" onclick="calcularAreaCuadrado()">
-                    Calcula el área
-                </button>
-            </form>
-        </section>
+    </section>
     </main>
 
     <script src="./figuras.js"></script>
