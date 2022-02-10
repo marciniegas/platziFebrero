@@ -5,8 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras geométricas</title>
+    <link rel="stylesheet" href="./figuras.css">
 </head>
 <body>
-    <h1></h1>
+    <header>
+        <h1>
+            Calculadora de figuras geométricas!
+        </h1>
+        <figure>
+            <img src="./icons/geometric.png" alt="figuras geometricas">
+        </figure>
+    </header>
+
+    <main>
+        <section class="container_figure cuadrado">
+            <h2>Calcula el área de un cuadrado</h2>
+            <form action="">
+                <label for="InputCuadrado">
+                    Escribe cuánto mide cada lado de un cuadrado:
+                </label>
+                <input id="InputCuadrado" type="number">
+
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcula el área
+                </button>
+            </form>
+        </section>
+
+        <section class="container_figure triangulo">
+            <h2>Calcula el área de un cuadrado</h2>
+            <form action="">
+                <label for="InputCuadrado">
+                    Escribe cuánto mide cada lado de un cuadrado:
+                </label>
+                <input id="InputCuadrado" type="number">
+
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcula el área
+                </button>
+            </form>
+        </section>
+
+        <section class="container_figure circulo">
+            <h2>Calcula el área de un cuadrado</h2>
+            <form action="">
+                <label for="InputCuadrado">
+                    Escribe cuánto mide cada lado de un cuadrado:
+                </label>
+                <input id="InputCuadrado" type="number">
+
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcula el área
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <script src="./figuras.js"></script>
 </body>
 </html>
