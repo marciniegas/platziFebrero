@@ -1,0 +1,22 @@
+{
+  "name": "projavascript",
+  "version": "1.0.0",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Platzi"
+  ],
+  "author": "Miguel Arciniegas <arc.miguelangel@gmail.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "live-server"
+  },
+
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
